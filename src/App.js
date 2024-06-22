@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import Characters from "./Characters";
  
 function App() {
   const [loading, setLoading] = useState(true);  
@@ -22,15 +23,13 @@ function App() {
         (<strong>Loading...</strong> 
         ) : (
           <div>
-            {characters.map((item) => (
-              <div key={item.id}>
-                <img src={`${item.thumbnail.path}.${item.thumbnail.extension}`} 
-                alt={item.name} 
-                />
-                <h3>{item.name}</h3>
-                <hr />
-              </div>
-            ))}
+            {characters.map((item) => 
+              <Characters 
+              key={item.id}
+              thumbnail={`${item.thumbnail.path}.${item.thumbnail.extension}`} 
+              name={item.name}
+              />
+            )}
         </div>
         )}
     </div>
