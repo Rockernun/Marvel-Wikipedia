@@ -1,12 +1,12 @@
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 
-function Character({ thumbnail, name, id, apiKey }) {
+function Character({ thumbnail, name, id, apikey }) {
     return (
         <div key={id}>
         <img src={thumbnail} alt={name} />
         <h3>{name}</h3>
-        <Link to={`http://gateway.marvel.com/v1/public/characters/${id}`}>Character's Details</Link>
+        <Link to={`http://gateway.marvel.com/v1/public/characters/${id}${apikey}`}>Character's Details</Link>
     </div>
     );
 }

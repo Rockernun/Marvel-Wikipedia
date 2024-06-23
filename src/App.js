@@ -7,7 +7,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/character/:id" element={<Detail />} />
-        <Route path="/" element={<Home />} />
+        <Route path="/Marvel-Wikipedia" element={<Home />} />
       </Routes>
     </Router>
   );
