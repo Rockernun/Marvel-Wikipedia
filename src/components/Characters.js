@@ -1,13 +1,17 @@
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";  //  Link 컴포넌트를 사용하기 위해 import.
+import styles from "./Characters.module.css";
 
 function Characters({ thumbnail, name, id }) {
     return (
-        <div>
+        <div className={styles.characters}>
             <img src={thumbnail} 
-            alt={name} 
+            alt={name}
+            className={styles.characters_img} 
             />
-            <Link to={`/character/${id}`}>{name}</Link>
+            <h2 className={styles.characters__name}>
+                <Link to={`/character/${id}`}>{name}</Link>
+            </h2>
             <hr />
         </div>
     );
