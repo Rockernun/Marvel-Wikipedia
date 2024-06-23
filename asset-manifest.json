@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Marvel-Wikipedia/static/css/main.91203cbd.css",
-    "main.js": "/Marvel-Wikipedia/static/js/main.de056f07.js",
+    "main.js": "/Marvel-Wikipedia/static/js/main.75092a0e.js",
     "index.html": "/Marvel-Wikipedia/index.html",
     "main.91203cbd.css.map": "/Marvel-Wikipedia/static/css/main.91203cbd.css.map",
-    "main.de056f07.js.map": "/Marvel-Wikipedia/static/js/main.de056f07.js.map"
+    "main.75092a0e.js.map": "/Marvel-Wikipedia/static/js/main.75092a0e.js.map"
   },
   "entrypoints": [
     "static/css/main.91203cbd.css",
-    "static/js/main.de056f07.js"
+    "static/js/main.75092a0e.js"
   ]
 }
