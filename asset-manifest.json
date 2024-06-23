@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/Marvel-Wikipedia/static/js/main.c7061813.js",
+    "main.js": "/Marvel-Wikipedia/static/js/main.9ca32041.js",
     "index.html": "/Marvel-Wikipedia/index.html",
-    "main.c7061813.js.map": "/Marvel-Wikipedia/static/js/main.c7061813.js.map"
+    "main.9ca32041.js.map": "/Marvel-Wikipedia/static/js/main.9ca32041.js.map"
   },
   "entrypoints": [
-    "static/js/main.c7061813.js"
+    "static/js/main.9ca32041.js"
   ]
 }
