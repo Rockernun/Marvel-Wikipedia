@@ -26,6 +26,7 @@ function Home() {
             {characters.map((item) => 
               <Characters 
               key={item.id}
+              id={item.id}  //  id prop을 추가
               thumbnail={`${item.thumbnail.path}.${item.thumbnail.extension}`} 
               name={item.name}
               />
